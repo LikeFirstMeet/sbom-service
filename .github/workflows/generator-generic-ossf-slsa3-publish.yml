@@ -12,9 +12,10 @@
 
 name: SLSA generic generator
 on:
-  push:
-    tags:
-      - "v*.*.*"
+  workflow_dispatch:
+#   push:
+#     tags:
+#       - "v*.*.*"
 
 permissions:
   contents: read
